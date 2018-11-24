@@ -8,10 +8,16 @@ public class StatsController : MonoBehaviour {
     public PlayerStats playerStats;
     public Slider waterslider;
     public Slider foodslider;
+    public Slider wealthslider;
+    public Slider moraleslider;
+    public Slider warmthslider;
+    public Slider socializitionslider;
+    public Slider hygieneslider;
+    public Slider staminaslider;
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         
 	}
 	
@@ -19,5 +25,12 @@ public class StatsController : MonoBehaviour {
 	void Update () {
         waterslider.value = playerStats.water;
         foodslider.value = playerStats.food;
-	}
+        wealthslider.value = playerStats.wealth;
+        moraleslider.value = playerStats.morale;
+        warmthslider.value = playerStats.warmth;
+        socializitionslider.value = playerStats.socialization;
+        hygieneslider.value = playerStats.hygiene;
+        staminaslider.value = playerStats.stamina;
+
+    }
 }
