@@ -12,7 +12,7 @@ public class PlayerMove : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        playerStats = this.GetComponent<PlayerStats>();
+        playerStats = GetComponent<PlayerStats>();
 	}
 	
 	// Update is called once per frame
