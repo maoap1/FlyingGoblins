@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Interact : MonoBehaviour
 {
+    
     public GameObject player;
+    public float distance;
 
     public float waterIncrease = 0.0f;
     public float foodIncrease = 0.0f;
@@ -14,18 +16,27 @@ public class Interact : MonoBehaviour
     public float socializationIncrease = 0.0f;
     public float hygieneIncrease = 0.0f;
     public float staminaIncrease = 0.0f;
+    
+    void Update()
+    {
+       
+    }
 
     void OnMouseDown()
     {
-        PlayerStats stats = player.GetComponent<PlayerStats>();
-        stats.water += waterIncrease;
-        stats.food += foodIncrease;
-        stats.wealth += wealthIncrease;
-        stats.morale += moraleIncrease;
-        stats.warmth += warmthIncrease;
-        stats.socialization += socializationIncrease;
-        stats.hygiene += hygieneIncrease;
-        stats.stamina += staminaIncrease;
-        stats.DetermineDeath();
+        distance = (this.transform.position - player.transform.position).magnitude;
+        if (distance < 5)
+        {
+            PlayerStats stats = player.GetComponent<PlayerStats>();
+            stats.water += waterIncrease;
+            stats.food += foodIncrease;
+            stats.wealth += wealthIncrease;
+            stats.morale += moraleIncrease;
+            stats.warmth += warmthIncrease;
+            stats.socialization += socializationIncrease;
+            stats.hygiene += hygieneIncrease;
+            stats.stamina += staminaIncrease;
+            stats.DetermineDeath();
+        }
     }
 }
