@@ -143,14 +143,14 @@ MonoBehaviour:
   player: {fileID: 0}
   distance: 0
   maxdistance: 5
-  waterIncrease: 0
+  waterIncrease: 0.4
   foodIncrease: 0
   wealthIncrease: 0
-  moraleIncrease: 0
-  warmthIncrease: 0
-  socializationIncrease: 0
-  hygieneIncrease: 0
-  staminaIncrease: 0
+  moraleIncrease: -0.2
+  warmthIncrease: -0.2
+  socializationIncrease: -0.2
+  hygieneIncrease: 0.4
+  staminaIncrease: -0.2
 --- !u!212 &212265553633996970
 SpriteRenderer:
   m_ObjectHideFlags: 1
