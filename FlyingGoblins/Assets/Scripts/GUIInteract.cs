@@ -8,11 +8,12 @@ using System.Text;
 public class GUIInteract : MonoBehaviour
 {
 
-    public TextMeshProUGUI text;
-    public Image image;
+    public TextMeshProUGUI statsDisplayer;
+    public Image backgroundPanel;
+    public GameObject player;
+
     string[] str = new string[8];
     float[] statsIncrease = new float[8];
-    public GameObject player;
     Interact interact;
 
 
@@ -54,14 +55,14 @@ public class GUIInteract : MonoBehaviour
             sb.AppendLine("water " + str[0] + "               food " + str[1] + "               wealth " + str[2] + "           morale " + str[3]);
             sb.AppendLine("warmth " + str[4] + "       socialization " + str[5] + "       hygiene " + str[6] + "        stamina " + str[7]);
 
-            text.SetText(sb.ToString());
-            image.enabled = true;
+            statsDisplayer.SetText(sb.ToString());
+            backgroundPanel.enabled = true;
         }
     }
 
     void OnMouseExit()
     {
-        text.SetText("");
-        image.enabled = false;
+        statsDisplayer.SetText("");
+        backgroundPanel.enabled = false;
     }
 }
