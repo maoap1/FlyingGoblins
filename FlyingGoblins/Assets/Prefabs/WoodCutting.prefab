@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 95090017633787500}
   - component: {fileID: 60729972637846780}
   - component: {fileID: 114113916058765526}
+  - component: {fileID: 114461148309131016}
   - component: {fileID: 114195252818466534}
   m_Layer: 0
   m_Name: WoodCutting
@@ -117,7 +118,6 @@ MonoBehaviour:
   player: {fileID: 0}
   distance: 0
   maxdistance: 5
-  text: {fileID: 0}
   waterIncrease: 0
   foodIncrease: 0
   wealthIncrease: 0
@@ -139,6 +139,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverScale: 1.1
   clickScale: 1.2
+--- !u!114 &114461148309131016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1571387696760038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ee274b146b30e40aec930fbc66ad2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statsDisplayer: {fileID: 0}
+  backgroundPanel: {fileID: 0}
+  player: {fileID: 0}
 --- !u!212 &212462414334313260
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 3e2012b7c9f01a343bd374a53a272c66
+guid: 653a30e1382f7724487dcbef21f548ab
 TextureImporter:
   fileIDToRecycleName:
-    21300000: objekty_domek_0
-    21300002: objekty_domek_1
-    21300004: objekty_domek_2
-    21300006: objekty_domek_3
+    21300000: objekty_hrob_0
+    21300002: objekty_hrob_1
+    21300004: objekty_hrob_2
+    21300006: objekty_hrob_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -99,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: objekty_domek_0
+      name: objekty_hrob_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,13 +113,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a011aaf507eb71b4a98b30cffb149f08
+      spriteID: d80c526b515fec144b13204cbc17a896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objekty_domek_1
+      name: objekty_hrob_1
       rect:
         serializedVersion: 2
         x: 50
@@ -133,13 +133,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef7f217a20f6afb44b7ead8f14de9866
+      spriteID: 438caef4c0241834e9dbf71e30c72ddb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objekty_domek_2
+      name: objekty_hrob_2
       rect:
         serializedVersion: 2
         x: 100
@@ -153,13 +153,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df4a7c1a5a7ac794f8bdd6787e3ac9df
+      spriteID: 8906bb6617a766f49836e54a3fb0a62e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objekty_domek_3
+      name: objekty_hrob_3
       rect:
         serializedVersion: 2
         x: 150
@@ -173,7 +173,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2231ba92514c85439297e28f7dc6288
+      spriteID: 05c255903bedd1148b23ec5ce2abeb9f
       vertices: []
       indices: 
       edges: []
@@ -181,7 +181,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 124df2f20f5babe4cb91a5c9ac4f3a1b
+    spriteID: a7ec149dbaf5e454ebf69356264457aa
     vertices: []
     indices: 
     edges: []
