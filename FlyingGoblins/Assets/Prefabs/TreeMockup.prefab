@@ -21,7 +21,8 @@ GameObject:
   - component: {fileID: 4006819409703916}
   - component: {fileID: 212707601980733532}
   - component: {fileID: 70271252750335354}
-  - component: {fileID: 114304922120373218}
+  - component: {fileID: 114550460130361724}
+  - component: {fileID: 114150334989493672}
   m_Layer: 0
   m_Name: TreeMockup
   m_TagString: Untagged
@@ -57,7 +58,7 @@ CapsuleCollider2D:
   m_Offset: {x: -0.03965917, y: 0}
   m_Size: {x: 0.53130066, y: 1}
   m_Direction: 0
---- !u!114 &114304922120373218
+--- !u!114 &114150334989493672
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65,10 +66,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1296905987776552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ab210a336c0eec4cbd0934af319ca79, type: 3}
+  m_Script: {fileID: 11500000, guid: 7074ed894adb7d3468df4ad26f359faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scalingConstant: 1.1
+  player: {fileID: 0}
+  waterIncrease: 0
+  foodIncrease: 0
+  wealthIncrease: 0
+  moraleIncrease: 0
+  warmthIncrease: 0
+  socializationIncrease: 0
+  hygieneIncrease: 0
+  staminaIncrease: 0
+--- !u!114 &114550460130361724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1296905987776552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f34ea670796682a4abf48eb6203fb108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverScale: 1.1
+  clickScale: 1.2
 --- !u!212 &212707601980733532
 SpriteRenderer:
   m_ObjectHideFlags: 1

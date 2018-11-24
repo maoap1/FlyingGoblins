@@ -229,9 +229,28 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1692101768}
+    - target: {fileID: 114150334989493672, guid: e23fc2185aa756b4ab6b3f1133b5ddd7,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1692101768}
+    - target: {fileID: 114150334989493672, guid: e23fc2185aa756b4ab6b3f1133b5ddd7,
+        type: 2}
+      propertyPath: waterIncrease
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e23fc2185aa756b4ab6b3f1133b5ddd7, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1692101768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1161071880348386, guid: 3c7286e262b40f44d868de8bad84d61e,
+    type: 2}
+  m_PrefabInternal: {fileID: 2076223069}
 --- !u!1001 &2076223069
 Prefab:
   m_ObjectHideFlags: 0
