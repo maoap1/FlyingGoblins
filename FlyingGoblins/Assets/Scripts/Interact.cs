@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Interact : MonoBehaviour
 {
     
     public GameObject player;
     public float distance;
+    public float maxdistance = 5f;
+    public Text text;
 
     public float waterIncrease = 0.0f;
     public float foodIncrease = 0.0f;
@@ -17,15 +20,32 @@ public class Interact : MonoBehaviour
     public float hygieneIncrease = 0.0f;
     public float staminaIncrease = 0.0f;
     
+    void Start()
+    {
+        
+    }
+
     void Update()
     {
        
     }
 
+    void OnMouseEnter()
+    {
+        distance = (this.transform.position - player.transform.position).magnitude;
+        if (distance < maxdistance)
+        {
+            if(waterIncrease != 0)
+            {
+                text.text += "water +" + Mathf.Sign(waterIncrease) + "/n"; 
+            }
+        }
+    }
+
     void OnMouseDown()
     {
         distance = (this.transform.position - player.transform.position).magnitude;
-        if (distance < 5)
+        if (distance < maxdistance)
         {
             PlayerStats stats = player.GetComponent<PlayerStats>();
             stats.water += waterIncrease;
