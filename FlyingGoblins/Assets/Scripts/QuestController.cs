@@ -1,20 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class StatTextController : MonoBehaviour {
-
-    Interact interact;
-    public Text text;
+public class QuestController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        interact = GetComponent<Interact>();
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+        Singleton singleton = Singleton.Instance;
 	}
 }

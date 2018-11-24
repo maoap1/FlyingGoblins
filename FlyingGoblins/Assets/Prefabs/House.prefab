@@ -144,12 +144,12 @@ MonoBehaviour:
   maxdistance: 5
   waterIncrease: 0
   foodIncrease: 0
-  wealthIncrease: 0
-  moraleIncrease: 0
-  warmthIncrease: 0
-  socializationIncrease: 0
-  hygieneIncrease: 0
-  staminaIncrease: 0
+  wealthIncrease: -0.2
+  moraleIncrease: -0.2
+  warmthIncrease: 0.2
+  socializationIncrease: -0.2
+  hygieneIncrease: 0.2
+  staminaIncrease: 0.4
 --- !u!212 &212494038918130236
 SpriteRenderer:
   m_ObjectHideFlags: 1
