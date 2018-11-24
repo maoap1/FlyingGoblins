@@ -14,15 +14,10 @@ public class StatsController : MonoBehaviour {
     public Slider socializitionslider;
     public Slider hygieneslider;
     public Slider staminaslider;
-
-
-    // Use this for initialization
-    void Start () {
-        
-	}
-	
+    
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
         waterslider.value = playerStats.water;
         foodslider.value = playerStats.food;
         wealthslider.value = playerStats.wealth;
