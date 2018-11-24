@@ -5,7 +5,8 @@ using UnityEngine.UI;
 using TMPro;
 using System.Text;
 
-public class GUIInterakt : MonoBehaviour {
+public class GUIInteract : MonoBehaviour
+{
 
     public TextMeshProUGUI text;
     public Image image;
@@ -16,7 +17,8 @@ public class GUIInterakt : MonoBehaviour {
 
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         interact = this.GetComponent<Interact>();
         statsIncrease[0] = interact.waterIncrease;
         statsIncrease[1] = interact.foodIncrease;
@@ -27,11 +29,6 @@ public class GUIInterakt : MonoBehaviour {
         statsIncrease[6] = interact.hygieneIncrease;
         statsIncrease[7] = interact.staminaIncrease;
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     void OnMouseEnter()
     {
@@ -50,7 +47,7 @@ public class GUIInterakt : MonoBehaviour {
                 }
                 else str[i] = "0";
             }
-       
+
 
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("Possible efect:");
