@@ -1,0 +1,8 @@
+o	Hydratace				= water
+o	Nasycenost				= food
+o	Bohatství				= wealth
+o	Duševní pohoda				= morale
+o	Teplo					= warmth
+o	Socializace				= socialization
+o	Hygiena					= hygiene
+o	Tìlesná integrita / Únava / Výdrž 	= stamina
