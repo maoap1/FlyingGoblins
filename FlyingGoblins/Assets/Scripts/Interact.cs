@@ -22,7 +22,7 @@ public class Interact : MonoBehaviour
     
     void Start()
     {
-        
+       
     }
 
     void Update()
