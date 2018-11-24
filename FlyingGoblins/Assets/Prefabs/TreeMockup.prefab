@@ -20,9 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4006819409703916}
   - component: {fileID: 212707601980733532}
-  - component: {fileID: 114593302202475378}
   - component: {fileID: 70271252750335354}
-  - component: {fileID: 114646508073156604}
+  - component: {fileID: 114304922120373218}
   m_Layer: 0
   m_Name: TreeMockup
   m_TagString: Untagged
@@ -58,7 +57,7 @@ CapsuleCollider2D:
   m_Offset: {x: -0.03965917, y: 0}
   m_Size: {x: 0.53130066, y: 1}
   m_Direction: 0
---- !u!114 &114593302202475378
+--- !u!114 &114304922120373218
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,19 +65,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1296905987776552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23b00805c55a52c40aed0d3917c889aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scalingConstant: 1.1
---- !u!114 &114646508073156604
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1296905987776552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23b00805c55a52c40aed0d3917c889aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ab210a336c0eec4cbd0934af319ca79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scalingConstant: 1.1
