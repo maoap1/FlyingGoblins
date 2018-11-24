@@ -7,11 +7,3 @@ Socializace				= socialization
 Hygiena					= hygiene
 Tìlesná integrita / Únava / Výdrž 	= stamina
 
-Sekání døíví				= wood
-Chlívek / Péèe o zvíøata		= pigsty
-Kùlna / Workshop			= workshop
-Rybník mimo dvorek			= pond
-Zlý kupec				= evil vendor
-Pomníèek v lese mimo dvorek		= monument
-Vèelí úl				= beehive
-Hraní si				= playing

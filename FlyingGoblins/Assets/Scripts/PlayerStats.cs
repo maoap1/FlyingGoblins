@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour {
 
-    public Singleton singleton;
     public float water = 1.0f;
     public float food = 1.0f;
     public float wealth = 1.0f;
@@ -43,7 +42,7 @@ public class PlayerStats : MonoBehaviour {
     private void Die(int deathnumber)
     {
         Destroy(gameObject);
-        singleton.typeOfDeath = deathnumber;
+        Singleton.Instance.typeOfDeath = deathnumber;
         SceneManager.LoadScene(1);
         //TODO - Death scene
     }
