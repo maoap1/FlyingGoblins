@@ -16,40 +16,28 @@ public class PlayerStats : MonoBehaviour {
     public float hygiene = 1.0f;
     public float stamina = 1.0f;
 
+    private void ProcessChanges(ref float number)
+    {
+        if (number <= 0.0f)
+        {
+            Die();
+        }
+        if (number > 1.0f)
+        {
+            number = 1.0f;
+        }
+    }
+
     public void DetermineDeath()
     {
-        if (water <= 0.0f)
-        {
-            Die();
-        }
-        if (food <= 0.0f)
-        {
-            Die();
-        }
-        if (wealth <= 0.0f)
-        {
-            Die();
-        }
-        if (morale <= 0.0f)
-        {
-            Die();
-        }
-        if (warmth <= 0.0f)
-        {
-            Die();
-        }
-        if (socialization <= 0.0f)
-        {
-            Die();
-        }
-        if (hygiene <= 0.0f)
-        {
-            Die();
-        }
-        if (stamina <= 0.0f)
-        {
-            Die();
-        }
+        ProcessChanges(ref water);
+        ProcessChanges(ref food);
+        ProcessChanges(ref wealth);
+        ProcessChanges(ref morale);
+        ProcessChanges(ref warmth);
+        ProcessChanges(ref socialization);
+        ProcessChanges(ref hygiene);
+        ProcessChanges(ref stamina);
     }
 
     private void Die()

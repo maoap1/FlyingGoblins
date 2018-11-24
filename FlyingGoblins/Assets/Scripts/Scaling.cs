@@ -32,4 +32,9 @@ public class Scaling : MonoBehaviour {
     {
         transform.localScale = clickScaleVector;
     }
+
+    void OnMouseUpAsButton()
+    {
+        transform.localScale = hoverScaleVector;
+    }
 }

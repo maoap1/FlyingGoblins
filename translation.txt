@@ -1,8 +1,17 @@
-o	Hydratace				= water
-o	Nasycenost				= food
-o	Bohatství				= wealth
-o	Duševní pohoda				= morale
-o	Teplo					= warmth
-o	Socializace				= socialization
-o	Hygiena					= hygiene
-o	Tìlesná integrita / Únava / Výdrž 	= stamina
+Hydratace				= water
+Nasycenost				= food
+Bohatství				= wealth
+Duševní pohoda				= morale
+Teplo					= warmth
+Socializace				= socialization
+Hygiena					= hygiene
+Tìlesná integrita / Únava / Výdrž 	= stamina
+
+Sekání døíví				= wood
+Chlívek / Péèe o zvíøata		= pigsty
+Kùlna / Workshop			= workshop
+Rybník mimo dvorek			= pond
+Zlý kupec				= evil vendor
+Pomníèek v lese mimo dvorek		= monument
+Vèelí úl				= beehive
+Hraní si				= playing
