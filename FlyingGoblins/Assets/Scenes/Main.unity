@@ -233,8 +233,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ee274b146b30e40aec930fbc66ad2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statsDisplayer: {fileID: 0}
-  backgroundPanel: {fileID: 0}
+  statsDisplayer: {fileID: 1461671511}
+  backgroundPanel: {fileID: 1461671508}
   player: {fileID: 1352792224}
 --- !u!114 &140127692
 MonoBehaviour:
@@ -1014,8 +1014,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ee274b146b30e40aec930fbc66ad2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statsDisplayer: {fileID: 0}
-  backgroundPanel: {fileID: 0}
+  statsDisplayer: {fileID: 1461671511}
+  backgroundPanel: {fileID: 1461671508}
   player: {fileID: 1352792224}
 --- !u!114 &231381356
 MonoBehaviour:
@@ -1271,8 +1271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ee274b146b30e40aec930fbc66ad2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statsDisplayer: {fileID: 0}
-  backgroundPanel: {fileID: 0}
+  statsDisplayer: {fileID: 1461671511}
+  backgroundPanel: {fileID: 1461671508}
   player: {fileID: 1352792224}
 --- !u!114 &323590586
 MonoBehaviour:
@@ -1821,6 +1821,11 @@ Prefab:
     - target: {fileID: 82571017574205220, guid: d072d3baeea068a4aadbd45bcaa41e80,
         type: 2}
       propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82571017574205220, guid: d072d3baeea068a4aadbd45bcaa41e80,
+        type: 2}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3010,8 +3015,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ee274b146b30e40aec930fbc66ad2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statsDisplayer: {fileID: 0}
-  backgroundPanel: {fileID: 0}
+  statsDisplayer: {fileID: 1461671511}
+  backgroundPanel: {fileID: 1461671508}
   player: {fileID: 1352792224}
 --- !u!114 &726919177
 MonoBehaviour:
@@ -4825,8 +4830,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ee274b146b30e40aec930fbc66ad2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statsDisplayer: {fileID: 0}
-  backgroundPanel: {fileID: 0}
+  statsDisplayer: {fileID: 1461671511}
+  backgroundPanel: {fileID: 1461671508}
   player: {fileID: 1352792224}
 --- !u!114 &1243927166
 MonoBehaviour:
@@ -5051,8 +5056,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ee274b146b30e40aec930fbc66ad2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statsDisplayer: {fileID: 0}
-  backgroundPanel: {fileID: 0}
+  statsDisplayer: {fileID: 1461671511}
+  backgroundPanel: {fileID: 1461671508}
   player: {fileID: 1352792224}
 --- !u!114 &1251035225
 MonoBehaviour:
@@ -5879,8 +5884,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ee274b146b30e40aec930fbc66ad2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statsDisplayer: {fileID: 0}
-  backgroundPanel: {fileID: 0}
+  statsDisplayer: {fileID: 1461671511}
+  backgroundPanel: {fileID: 1461671508}
   player: {fileID: 1352792224}
 --- !u!114 &1452734128
 MonoBehaviour:
@@ -6025,8 +6030,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6078,7 +6083,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -6484,10 +6489,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 480, y: 270}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -7778,8 +7783,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ee274b146b30e40aec930fbc66ad2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statsDisplayer: {fileID: 0}
-  backgroundPanel: {fileID: 0}
+  statsDisplayer: {fileID: 1461671511}
+  backgroundPanel: {fileID: 1461671508}
   player: {fileID: 1352792224}
 --- !u!114 &1632345815
 MonoBehaviour:
@@ -8919,8 +8924,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ee274b146b30e40aec930fbc66ad2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statsDisplayer: {fileID: 0}
-  backgroundPanel: {fileID: 0}
+  statsDisplayer: {fileID: 1461671511}
+  backgroundPanel: {fileID: 1461671508}
   player: {fileID: 1352792224}
 --- !u!114 &2114132223
 MonoBehaviour:
