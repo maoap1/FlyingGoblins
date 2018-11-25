@@ -35,17 +35,17 @@ public class TextController : MonoBehaviour {
         }
         if (playerStats.morale < lack)
         {
-            text.text += "\n You are depressive!";
+            text.text += "\n You are in depression!";
             text.enabled = true;
         }
         if (playerStats.warmth < lack)
         {
-            text.text += "\n You are cold!";
+            text.text += "\n You feel chilly!";
             text.enabled = true;
         }
         if (playerStats.socialization < lack)
         {
-            text.text += "\n Nobady like you!";
+            text.text += "\n Nobody likes you!";
             text.enabled = true;
         }
         if (playerStats.hygiene < lack)

@@ -1895,6 +1895,9 @@ MonoBehaviour:
     location: {fileID: 0}
   - description: 
     location: {fileID: 0}
+  currentObjective:
+    description: 
+    location: {fileID: 0}
 --- !u!4 &486837075
 Transform:
   m_ObjectHideFlags: 0
@@ -7386,6 +7389,51 @@ Prefab:
     - target: {fileID: 4743750074332200, guid: f619c0151d103944d97b4c262aba8edd, type: 2}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114007456975410774, guid: f619c0151d103944d97b4c262aba8edd,
+        type: 2}
+      propertyPath: water
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114007456975410774, guid: f619c0151d103944d97b4c262aba8edd,
+        type: 2}
+      propertyPath: food
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114007456975410774, guid: f619c0151d103944d97b4c262aba8edd,
+        type: 2}
+      propertyPath: wealth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114007456975410774, guid: f619c0151d103944d97b4c262aba8edd,
+        type: 2}
+      propertyPath: morale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114007456975410774, guid: f619c0151d103944d97b4c262aba8edd,
+        type: 2}
+      propertyPath: warmth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114007456975410774, guid: f619c0151d103944d97b4c262aba8edd,
+        type: 2}
+      propertyPath: socialization
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114007456975410774, guid: f619c0151d103944d97b4c262aba8edd,
+        type: 2}
+      propertyPath: hygiene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114007456975410774, guid: f619c0151d103944d97b4c262aba8edd,
+        type: 2}
+      propertyPath: stamina
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114007456975410774, guid: f619c0151d103944d97b4c262aba8edd,
+        type: 2}
+      propertyPath: debugging
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f619c0151d103944d97b4c262aba8edd, type: 2}
