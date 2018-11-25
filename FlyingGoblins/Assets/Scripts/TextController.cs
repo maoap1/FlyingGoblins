@@ -11,8 +11,8 @@ public class TextController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
-	}
+        text.enabled = false;
+    }
 	
 	// Update is called once per frame
 	void Update () {

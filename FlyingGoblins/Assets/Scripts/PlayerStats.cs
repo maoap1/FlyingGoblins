@@ -44,6 +44,6 @@ public class PlayerStats : MonoBehaviour {
     {
         Destroy(gameObject);
         Singleton.Instance.typeOfDeath = deathnumber;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
     }
 }
