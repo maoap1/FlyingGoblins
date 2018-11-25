@@ -20,6 +20,7 @@ public class MainObjective : MonoBehaviour
     public TextMeshProUGUI doText;
     public Image objectiveImage;
 
+
     void Start()
     {
         CreateNewObjective();
@@ -75,8 +76,15 @@ public class MainObjective : MonoBehaviour
     { 
         doneCanvas.SetActive(true);
         string temp = location.ToString();
-        
-        doText.SetText("You did: " + temp.Split(' ')[0]);
+        if (temp.Split(' ')[0] == "WoodCutting")
+        {
+            doText.SetText("Wood");
+        }
+        if (temp.Split(' ')[0] == "Stables")
+        {
+            doText.SetText("Wood");
+        }
+        //doText.SetText("You did: " + temp.Split(' ')[0]);
         yield return new WaitForSeconds(1);
         doneCanvas.SetActive(false);
     }

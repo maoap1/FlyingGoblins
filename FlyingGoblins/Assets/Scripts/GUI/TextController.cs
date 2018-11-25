@@ -16,7 +16,7 @@ public class TextController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        text.text = "Warning!";
+        text.text = "Beware!";
         text.enabled = false;
         if(playerStats.water < lack)
         {
@@ -30,32 +30,32 @@ public class TextController : MonoBehaviour {
         }
         if (playerStats.wealth < lack)
         {
-            text.text += "\n You are poor!";
+            text.text += "\n Your funds are low!";
             text.enabled = true;
         }
         if (playerStats.morale < lack)
         {
-            text.text += "\n You are in depression!";
+            text.text += "\n Your morale is low!";
             text.enabled = true;
         }
         if (playerStats.warmth < lack)
         {
-            text.text += "\n You feel chilly!";
+            text.text += "\n You are freezing!";
             text.enabled = true;
         }
         if (playerStats.socialization < lack)
         {
-            text.text += "\n Nobody likes you!";
+            text.text += "\n No human contact!";
             text.enabled = true;
         }
         if (playerStats.hygiene < lack)
         {
-            text.text += "\n You are dirty!";
+            text.text += "\n You are sick!";
             text.enabled = true;
         }
         if (playerStats.stamina < lack)
         {
-            text.text += "\n You are weak!";
+            text.text += "\n You are enfeebled!";
             text.enabled = true;
         }
     }
