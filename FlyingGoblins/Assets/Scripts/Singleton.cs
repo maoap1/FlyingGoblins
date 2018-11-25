@@ -5,7 +5,7 @@ using UnityEngine;
 public class Singleton : MonoBehaviour
 {
     public int typeOfDeath;
-    public int days = 1;
+    public int days;
 
     private static Singleton instance = null;
     public static Singleton Instance
@@ -16,14 +16,14 @@ public class Singleton : MonoBehaviour
     {
         if (instance != null && instance != this)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
             return;
         }
         else
         {
             instance = this;
         }
-        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(gameObject);
     }
 
    
