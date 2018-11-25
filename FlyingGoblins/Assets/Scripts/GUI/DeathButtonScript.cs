@@ -22,7 +22,7 @@ public class DeathButtonScript : MonoBehaviour {
 
     public void RestratGameButtonDown()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
     }
 
     public void QuitButtonDown()
