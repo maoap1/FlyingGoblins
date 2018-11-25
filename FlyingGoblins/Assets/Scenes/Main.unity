@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 719686574}
   - component: {fileID: 719686573}
   - component: {fileID: 719686572}
+  - component: {fileID: 719686575}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -190,7 +191,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1160419734
+--- !u!114 &719686575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 719686571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7db5e1a3981b14390ec3cb6c4f67f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambientSound: {fileID: 886012705}
+  menuSound: {fileID: 988940148}
+--- !u!82 &886012705 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82509565650101034, guid: 8d1bd967e31d13747acdf3fc96ecdffb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1071039593}
+--- !u!82 &988940148 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 82824174486091938, guid: 8d1bd967e31d13747acdf3fc96ecdffb,
+    type: 2}
+  m_PrefabInternal: {fileID: 1071039593}
+--- !u!1001 &1071039593
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -229,16 +253,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 82373105811838846, guid: 8d1bd967e31d13747acdf3fc96ecdffb,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 82509565650101034, guid: 8d1bd967e31d13747acdf3fc96ecdffb,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114413042725858488, guid: 8d1bd967e31d13747acdf3fc96ecdffb, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 8d1bd967e31d13747acdf3fc96ecdffb, type: 2}
   m_IsPrefabAsset: 0
