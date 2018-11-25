@@ -6,11 +6,22 @@ using TMPro;
 public class DeathTextController : MonoBehaviour {
 
     public TextMeshProUGUI deathText;
+    public TextMeshProUGUI days;
 
     // Use this for initialization
     void Start()
     {
         Singleton singleton = Singleton.Instance;
+        int dayCount = singleton.days;
+        if (dayCount == 1)
+        {
+            days.SetText("You survived 1 Day.");
+        }
+        else
+        {
+            days.SetText("You survived " + dayCount.ToString() + " Day.");
+        }
+        
         if (deathText)
         {
             switch (singleton.typeOfDeath)
