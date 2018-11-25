@@ -21,12 +21,10 @@ public class MainObjective : MonoBehaviour
 
     public void RegisterLocation(GameObject location)
     {
-        
-        var first = location.ToString();
-        var second = currentObjective.location.GetType();
         if (location.ToString() == currentObjective.location.ToString())
         {
             CreateNewObjective();
         }
+        
     }
 }

@@ -41,6 +41,12 @@ TagManager:
   - name: Background
     uniqueID: 925405281
     locked: 0
+  - name: BackgroundFence
+    uniqueID: 2721813419
+    locked: 0
+  - name: BackgroundItems
+    uniqueID: 354064639
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
