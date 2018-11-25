@@ -36,7 +36,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4998617747975036}
   - component: {fileID: 114225557452329732}
-  - component: {fileID: 114413042725858488}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
@@ -304,16 +303,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   typeOfDeath: 0
   days: 0
---- !u!114 &114413042725858488
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1926884884463668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c7db5e1a3981b14390ec3cb6c4f67f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ambientSound: {fileID: 82509565650101034}
-  menuSound: {fileID: 82824174486091938}
