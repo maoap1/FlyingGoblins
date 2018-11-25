@@ -1263,9 +1263,34 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114892261983811012, guid: 98c3c91a0c9128d49ab000f4e2d6e63e,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114338653239977590, guid: 98c3c91a0c9128d49ab000f4e2d6e63e,
+        type: 2}
+      propertyPath: statsDisplayer
+      value: 
+      objectReference: {fileID: 1461671511}
+    - target: {fileID: 114338653239977590, guid: 98c3c91a0c9128d49ab000f4e2d6e63e,
+        type: 2}
+      propertyPath: backgroundPanel
+      value: 
+      objectReference: {fileID: 1461671508}
+    - target: {fileID: 114338653239977590, guid: 98c3c91a0c9128d49ab000f4e2d6e63e,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98c3c91a0c9128d49ab000f4e2d6e63e, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &453707911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1096241112312310, guid: 98c3c91a0c9128d49ab000f4e2d6e63e,
+    type: 2}
+  m_PrefabInternal: {fileID: 453707910}
 --- !u!1001 &454491897
 Prefab:
   m_ObjectHideFlags: 0
@@ -1372,6 +1397,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114984202085924514, guid: fd37b2298d0d6c644b1924940e2deaf6,
+        type: 2}
+      propertyPath: statsDisplayer
+      value: 
+      objectReference: {fileID: 1461671511}
+    - target: {fileID: 114984202085924514, guid: fd37b2298d0d6c644b1924940e2deaf6,
+        type: 2}
+      propertyPath: backgroundPanel
+      value: 
+      objectReference: {fileID: 1461671508}
+    - target: {fileID: 114984202085924514, guid: fd37b2298d0d6c644b1924940e2deaf6,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114370606011848208, guid: fd37b2298d0d6c644b1924940e2deaf6,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd37b2298d0d6c644b1924940e2deaf6, type: 2}
   m_IsPrefabAsset: 0
@@ -1675,6 +1720,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 114911404096622584, guid: 7dfc13824ee724e43b8c68236badcdf2,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114288754182407890, guid: 7dfc13824ee724e43b8c68236badcdf2,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114288754182407890, guid: 7dfc13824ee724e43b8c68236badcdf2,
+        type: 2}
+      propertyPath: backgroundPanel
+      value: 
+      objectReference: {fileID: 1461671508}
+    - target: {fileID: 114288754182407890, guid: 7dfc13824ee724e43b8c68236badcdf2,
+        type: 2}
+      propertyPath: statsDisplayer
+      value: 
+      objectReference: {fileID: 1461671511}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dfc13824ee724e43b8c68236badcdf2, type: 2}
   m_IsPrefabAsset: 0
@@ -2302,6 +2367,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 114373787705133880, guid: 057eb52c9147f3048ad4e38ced4bae97,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114245672699751798, guid: 057eb52c9147f3048ad4e38ced4bae97,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114245672699751798, guid: 057eb52c9147f3048ad4e38ced4bae97,
+        type: 2}
+      propertyPath: backgroundPanel
+      value: 
+      objectReference: {fileID: 1461671508}
+    - target: {fileID: 114245672699751798, guid: 057eb52c9147f3048ad4e38ced4bae97,
+        type: 2}
+      propertyPath: statsDisplayer
+      value: 
+      objectReference: {fileID: 1461671511}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 057eb52c9147f3048ad4e38ced4bae97, type: 2}
   m_IsPrefabAsset: 0
@@ -4038,6 +4123,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114717966092391196, guid: e779ac62dbef98648b727519f99635cd,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114160591995697392, guid: e779ac62dbef98648b727519f99635cd,
+        type: 2}
+      propertyPath: statsDisplayer
+      value: 
+      objectReference: {fileID: 1461671511}
+    - target: {fileID: 114160591995697392, guid: e779ac62dbef98648b727519f99635cd,
+        type: 2}
+      propertyPath: backgroundPanel
+      value: 
+      objectReference: {fileID: 1461671508}
+    - target: {fileID: 114160591995697392, guid: e779ac62dbef98648b727519f99635cd,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e779ac62dbef98648b727519f99635cd, type: 2}
   m_IsPrefabAsset: 0
@@ -4080,6 +4185,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114359301178392404, guid: 378d52f83c3e2d24daa81bcafbb23e44,
+        type: 2}
+      propertyPath: statsDisplayer
+      value: 
+      objectReference: {fileID: 1461671511}
+    - target: {fileID: 114359301178392404, guid: 378d52f83c3e2d24daa81bcafbb23e44,
+        type: 2}
+      propertyPath: backgroundPanel
+      value: 
+      objectReference: {fileID: 1461671508}
+    - target: {fileID: 114359301178392404, guid: 378d52f83c3e2d24daa81bcafbb23e44,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114202336760585454, guid: 378d52f83c3e2d24daa81bcafbb23e44,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 378d52f83c3e2d24daa81bcafbb23e44, type: 2}
   m_IsPrefabAsset: 0
@@ -4441,7 +4566,7 @@ MonoBehaviour:
   currentObjective:
     description: 
     location: {fileID: 0}
-  house: {fileID: 0}
+  house: {fileID: 453707911}
   objectiveIsDone: 0
   newDayCanvas: {fileID: 1461671510}
   activeObject: {fileID: 2106701714}
@@ -5863,6 +5988,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114113916058765526, guid: 47c3ff8d7feee4d439c3f051028e0a85,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114461148309131016, guid: 47c3ff8d7feee4d439c3f051028e0a85,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114461148309131016, guid: 47c3ff8d7feee4d439c3f051028e0a85,
+        type: 2}
+      propertyPath: backgroundPanel
+      value: 
+      objectReference: {fileID: 1461671508}
+    - target: {fileID: 114461148309131016, guid: 47c3ff8d7feee4d439c3f051028e0a85,
+        type: 2}
+      propertyPath: statsDisplayer
+      value: 
+      objectReference: {fileID: 1461671511}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47c3ff8d7feee4d439c3f051028e0a85, type: 2}
   m_IsPrefabAsset: 0
@@ -6842,6 +6987,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114161371084742024, guid: bd7bab472ad3a6f48b7fb2bd4d3583e2,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114321735077153066, guid: bd7bab472ad3a6f48b7fb2bd4d3583e2,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114321735077153066, guid: bd7bab472ad3a6f48b7fb2bd4d3583e2,
+        type: 2}
+      propertyPath: backgroundPanel
+      value: 
+      objectReference: {fileID: 1461671508}
+    - target: {fileID: 114321735077153066, guid: bd7bab472ad3a6f48b7fb2bd4d3583e2,
+        type: 2}
+      propertyPath: statsDisplayer
+      value: 
+      objectReference: {fileID: 1461671511}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd7bab472ad3a6f48b7fb2bd4d3583e2, type: 2}
   m_IsPrefabAsset: 0
@@ -6957,6 +7122,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 114493663208166372, guid: 487090a122f99784ca48afab3fc7dc50,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114007783965948954, guid: 487090a122f99784ca48afab3fc7dc50,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1352792224}
+    - target: {fileID: 114007783965948954, guid: 487090a122f99784ca48afab3fc7dc50,
+        type: 2}
+      propertyPath: backgroundPanel
+      value: 
+      objectReference: {fileID: 1461671508}
+    - target: {fileID: 114007783965948954, guid: 487090a122f99784ca48afab3fc7dc50,
+        type: 2}
+      propertyPath: statsDisplayer
+      value: 
+      objectReference: {fileID: 1461671511}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 487090a122f99784ca48afab3fc7dc50, type: 2}
   m_IsPrefabAsset: 0

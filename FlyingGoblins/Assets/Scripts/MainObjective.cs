@@ -119,7 +119,7 @@ public class MainObjective : MonoBehaviour
             doText.SetText("These cold baths are killing you and all of the bacteria. You filled the flask for the way back.");
         }
         //doText.SetText("You did: " + temp.Split(' ')[0]);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(3);
         doneCanvas.SetActive(false);
     }
 
