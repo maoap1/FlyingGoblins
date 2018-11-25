@@ -8,7 +8,6 @@ public class LoadingScript : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        //SceneManager.LoadScene(2, LoadSceneMode.Additive);
         
 	}
 
