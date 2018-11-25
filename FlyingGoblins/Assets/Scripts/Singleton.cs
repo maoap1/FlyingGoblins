@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class Singleton : MonoBehaviour
 {
     public int typeOfDeath;
+    public int days = 1;
+
     private static Singleton instance = null;
     public static Singleton Instance
     {
