@@ -1569,11 +1569,15 @@ MonoBehaviour:
   currentObjective:
     description: 
     location: {fileID: 0}
-  house: {fileID: 0}
+  house: {fileID: 1941736350312186}
   objectiveIsDone: 0
   newDayCanvas: {fileID: 0}
-  activeObject: {fileID: 0}
+  activeObject: {fileID: 1679901717854938}
   objectiveText: {fileID: 0}
+  canvas: {fileID: 0}
+  doneCanvas: {fileID: 0}
+  doText: {fileID: 0}
+  objectiveImage: {fileID: 0}
 --- !u!114 &114974577428213392
 MonoBehaviour:
   m_ObjectHideFlags: 1
