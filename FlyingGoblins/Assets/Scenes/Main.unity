@@ -1286,6 +1286,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98c3c91a0c9128d49ab000f4e2d6e63e, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &453707911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1096241112312310, guid: 98c3c91a0c9128d49ab000f4e2d6e63e,
+    type: 2}
+  m_PrefabInternal: {fileID: 453707910}
 --- !u!1001 &454491897
 Prefab:
   m_ObjectHideFlags: 0
@@ -4561,7 +4566,7 @@ MonoBehaviour:
   currentObjective:
     description: 
     location: {fileID: 0}
-  house: {fileID: 0}
+  house: {fileID: 453707911}
   objectiveIsDone: 0
   newDayCanvas: {fileID: 1461671510}
   activeObject: {fileID: 2106701714}
