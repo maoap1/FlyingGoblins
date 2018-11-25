@@ -27,7 +27,7 @@ public class AudioScript : MonoBehaviour
         ambientSound.mute = true;
         menuSound.mute = true;
         string activeScene = SceneManager.GetActiveScene().name;
-        if ((activeScene == "MainMenu")||(activeScene == "Story"))
+        if ((activeScene == "MainMenu")||(activeScene == "Story") || (activeScene == "HowToPlay"))
         {
             menuSound.enabled = true;
             menuSound.mute = false;
