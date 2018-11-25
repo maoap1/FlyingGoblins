@@ -154,7 +154,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6434dcbc50528224097bbc60a93ce226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  availableObjectives: []
+  availableObjectives:
+  - description: '- Work at stables'
+    location: {fileID: 1973688234613400, guid: 378d52f83c3e2d24daa81bcafbb23e44, type: 2}
+  - description: '- Chop wood'
+    location: {fileID: 1571387696760038, guid: 47c3ff8d7feee4d439c3f051028e0a85, type: 2}
+  - description: '- Maintain the beehive'
+    location: {fileID: 1959792742011522, guid: d072d3baeea068a4aadbd45bcaa41e80, type: 2}
+  - description: '- Don''t bother me. Have fun at the swing.'
+    location: {fileID: 0}
+  - description: '- Hoe the garden plot.'
+    location: {fileID: 1579252733900498, guid: bd7bab472ad3a6f48b7fb2bd4d3583e2, type: 2}
+  - description: '- Get water from the well.'
+    location: {fileID: 1097944467683746, guid: e779ac62dbef98648b727519f99635cd, type: 2}
+  - description: '- Get food from the merchant in the woods.'
+    location: {fileID: 1375415790356036, guid: 057eb52c9147f3048ad4e38ced4bae97, type: 2}
+  - description: '- Visit mother''s grave in the woods.'
+    location: {fileID: 1774594515516346, guid: 7dfc13824ee724e43b8c68236badcdf2, type: 2}
+  - description: '- Wash yourself in that forest lake.'
+    location: {fileID: 1394481512720892, guid: 487090a122f99784ca48afab3fc7dc50, type: 2}
+  - description: '- When you''re done, come back home.'
+    location: {fileID: 1096241112312310, guid: 98c3c91a0c9128d49ab000f4e2d6e63e, type: 2}
   currentObjective:
     description: 
     location: {fileID: 0}
