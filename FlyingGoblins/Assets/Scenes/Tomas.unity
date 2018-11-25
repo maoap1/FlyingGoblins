@@ -188,6 +188,12 @@ Transform:
   m_Father: {fileID: 503429367}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11750690 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114680978006603504, guid: 907bdcb6103bd734d94c14cc501dad8c,
+    type: 2}
+  m_PrefabInternal: {fileID: 131285676}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
 --- !u!1001 &22695072
 Prefab:
   m_ObjectHideFlags: 0
@@ -275,6 +281,21 @@ Prefab:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114943594146445372, guid: d072d3baeea068a4aadbd45bcaa41e80,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 298142609}
+    - target: {fileID: 114199873810801504, guid: d072d3baeea068a4aadbd45bcaa41e80,
+        type: 2}
+      propertyPath: backgroundPanel
+      value: 
+      objectReference: {fileID: 497117662}
+    - target: {fileID: 114199873810801504, guid: d072d3baeea068a4aadbd45bcaa41e80,
+        type: 2}
+      propertyPath: statsDisplayer
+      value: 
+      objectReference: {fileID: 11750690}
+    - target: {fileID: 114199873810801504, guid: d072d3baeea068a4aadbd45bcaa41e80,
         type: 2}
       propertyPath: player
       value: 
@@ -702,7 +723,7 @@ Prefab:
     - target: {fileID: 224622410844614678, guid: 907bdcb6103bd734d94c14cc501dad8c,
         type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 224622410844614678, guid: 907bdcb6103bd734d94c14cc501dad8c,
         type: 2}
@@ -992,7 +1013,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4743750074332200, guid: f619c0151d103944d97b4c262aba8edd, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f619c0151d103944d97b4c262aba8edd, type: 2}
@@ -2011,6 +2032,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &497117662 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114102426251422776, guid: 907bdcb6103bd734d94c14cc501dad8c,
+    type: 2}
+  m_PrefabInternal: {fileID: 131285676}
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &503429366
 GameObject:
   m_ObjectHideFlags: 0
@@ -9891,7 +9918,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4835918599777154, guid: 98c3c91a0c9128d49ab000f4e2d6e63e, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 114892261983811012, guid: 98c3c91a0c9128d49ab000f4e2d6e63e,
         type: 2}
