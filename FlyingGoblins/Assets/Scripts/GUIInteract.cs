@@ -51,7 +51,7 @@ public class GUIInteract : MonoBehaviour
 
 
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Possible efect:");
+            sb.AppendLine("Possible effects:");
             sb.AppendLine("water " + str[0] + "               food " + str[1] + "               wealth " + str[2] + "           morale " + str[3]);
             sb.AppendLine("warmth " + str[4] + "       socialization " + str[5] + "       hygiene " + str[6] + "        stamina " + str[7]);
 
