@@ -172,6 +172,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1482990086931476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4059323553647714}
+  - component: {fileID: 212284779417008896}
+  - component: {fileID: 114443307667371372}
+  - component: {fileID: 114512415975995494}
+  - component: {fileID: 95185282688649892}
+  - component: {fileID: 50833160556518266}
+  - component: {fileID: 60054628262123230}
+  - component: {fileID: 114923820202453126}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1679901717854938
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,7 +208,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1824869092374882
 GameObject:
   m_ObjectHideFlags: 1
@@ -203,28 +225,6 @@ GameObject:
   - component: {fileID: 60224594651690300}
   m_Layer: 0
   m_Name: Beehive
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1891306171989190
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4216460173876596}
-  - component: {fileID: 212782954353405940}
-  - component: {fileID: 114403105841357776}
-  - component: {fileID: 114491627827785304}
-  - component: {fileID: 95077198559002614}
-  - component: {fileID: 50943297919213208}
-  - component: {fileID: 60142284927047806}
-  - component: {fileID: 114632203708090076}
-  m_Layer: 0
-  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -284,15 +284,15 @@ Transform:
   m_Father: {fileID: 4750081738775540}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4216460173876596
+--- !u!4 &4059323553647714
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1891306171989190}
+  m_GameObject: {fileID: 1482990086931476}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.9196481, y: 0.3833431, z: 0}
-  m_LocalScale: {x: 0.4692082, y: 0.4692082, z: 0.4692082}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224304660689278584}
   m_RootOrder: 0
@@ -396,7 +396,7 @@ Transform:
   m_GameObject: {fileID: 1419212753343482}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4692082, y: 0.4692082, z: 0.4692082}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4306743558211436}
   - {fileID: 4036819734095816}
@@ -437,13 +437,13 @@ Transform:
   m_Father: {fileID: 4750081738775540}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50943297919213208
+--- !u!50 &50833160556518266
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1891306171989190}
+  m_GameObject: {fileID: 1482990086931476}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -457,44 +457,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!60 &60131532171525796
+--- !u!60 &60054628262123230
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1093176917173622}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
-    newSize: {x: 2, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.4009118, y: -0.20868206}
-      - {x: -0.88663054, y: -0.6955402}
-      - {x: -0.9158869, y: -0.8214865}
-      - {x: 0.017135859, y: -0.8393161}
-      - {x: 0.4644599, y: -0.8868582}
-      - {x: 0.86125875, y: -0.4505155}
-      - {x: 0.8685727, y: -0.36799812}
-      - {x: -0.07199216, y: -0.30376625}
---- !u!60 &60142284927047806
-PolygonCollider2D:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1891306171989190}
+  m_GameObject: {fileID: 1482990086931476}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -528,6 +496,38 @@ PolygonCollider2D:
       - {x: 0.4231249, y: 0.16017061}
       - {x: 0.40133965, y: 0.32869655}
       - {x: 0.27398217, y: 0.48421425}
+--- !u!60 &60131532171525796
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1093176917173622}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.4009118, y: -0.20868206}
+      - {x: -0.88663054, y: -0.6955402}
+      - {x: -0.9158869, y: -0.8214865}
+      - {x: 0.017135859, y: -0.8393161}
+      - {x: 0.4644599, y: -0.8868582}
+      - {x: 0.86125875, y: -0.4505155}
+      - {x: 0.8685727, y: -0.36799812}
+      - {x: -0.07199216, y: -0.30376625}
 --- !u!60 &60148823884999136
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -907,13 +907,13 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!95 &95077198559002614
+--- !u!95 &95185282688649892
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1891306171989190}
+  m_GameObject: {fileID: 1482990086931476}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: b8e88ce942546ab4ebf587d885921c70, type: 2}
@@ -1064,7 +1064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsDisplayer: {fileID: 0}
   backgroundPanel: {fileID: 0}
-  player: {fileID: 1891306171989190}
+  player: {fileID: 1482990086931476}
 --- !u!114 &114080003357153554
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1091,7 +1091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsDisplayer: {fileID: 0}
   backgroundPanel: {fileID: 0}
-  player: {fileID: 1891306171989190}
+  player: {fileID: 1482990086931476}
 --- !u!114 &114125504368337932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1131,7 +1131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsDisplayer: {fileID: 0}
   backgroundPanel: {fileID: 0}
-  player: {fileID: 1891306171989190}
+  player: {fileID: 1482990086931476}
 --- !u!114 &114150890893366734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1145,7 +1145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsDisplayer: {fileID: 0}
   backgroundPanel: {fileID: 0}
-  player: {fileID: 1891306171989190}
+  player: {fileID: 1482990086931476}
 --- !u!114 &114270834375384246
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1159,7 +1159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsDisplayer: {fileID: 0}
   backgroundPanel: {fileID: 0}
-  player: {fileID: 1891306171989190}
+  player: {fileID: 1482990086931476}
 --- !u!114 &114283631580550928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1184,9 +1184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7074ed894adb7d3468df4ad26f359faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1891306171989190}
-  distance: 0
-  maxdistance: 5
+  player: {fileID: 1482990086931476}
   waterIncrease: -0.2
   foodIncrease: -0.2
   wealthIncrease: 0
@@ -1206,9 +1204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7074ed894adb7d3468df4ad26f359faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1891306171989190}
-  distance: 0
-  maxdistance: 5
+  player: {fileID: 1482990086931476}
   waterIncrease: -0.2
   foodIncrease: 0.4
   wealthIncrease: -0.4
@@ -1217,19 +1213,6 @@ MonoBehaviour:
   socializationIncrease: 0.2
   hygieneIncrease: 0
   staminaIncrease: 0.2
---- !u!114 &114403105841357776
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1891306171989190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3ea0f94c3cb6494692e8b58c680593e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxSpeed: 10
-  movementSpeed: 10
 --- !u!114 &114413839584531582
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1256,7 +1239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsDisplayer: {fileID: 0}
   backgroundPanel: {fileID: 0}
-  player: {fileID: 1891306171989190}
+  player: {fileID: 1482990086931476}
 --- !u!114 &114416597152235154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1268,9 +1251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7074ed894adb7d3468df4ad26f359faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1891306171989190}
-  distance: 0
-  maxdistance: 5
+  player: {fileID: 1482990086931476}
   waterIncrease: -0.2
   foodIncrease: -0.2
   wealthIncrease: 0
@@ -1279,12 +1260,25 @@ MonoBehaviour:
   socializationIncrease: 0
   hygieneIncrease: -0.2
   staminaIncrease: -0.2
---- !u!114 &114491627827785304
+--- !u!114 &114443307667371372
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1891306171989190}
+  m_GameObject: {fileID: 1482990086931476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ea0f94c3cb6494692e8b58c680593e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 10
+  movementSpeed: 10
+--- !u!114 &114512415975995494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1482990086931476}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8315b00d8bad8b4392d388d335d33fd, type: 3}
@@ -1312,7 +1306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsDisplayer: {fileID: 0}
   backgroundPanel: {fileID: 0}
-  player: {fileID: 1891306171989190}
+  player: {fileID: 1482990086931476}
 --- !u!114 &114548690606770420
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1337,9 +1331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7074ed894adb7d3468df4ad26f359faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1891306171989190}
-  distance: 0
-  maxdistance: 5
+  player: {fileID: 1482990086931476}
   waterIncrease: 0.4
   foodIncrease: 0
   wealthIncrease: 0.1
@@ -1374,23 +1366,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverScale: 1.1
   clickScale: 1.2
---- !u!114 &114632203708090076
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1891306171989190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6434dcbc50528224097bbc60a93ce226, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  availableObjectives:
-  - description: aaa
-    location: {fileID: 1065968974439892}
-  currentObjective:
-    description: 
-    location: {fileID: 0}
 --- !u!114 &114686277430038702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1402,9 +1377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7074ed894adb7d3468df4ad26f359faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1891306171989190}
-  distance: 0
-  maxdistance: 5
+  player: {fileID: 1482990086931476}
   waterIncrease: -0.2
   foodIncrease: -0.2
   wealthIncrease: 0
@@ -1424,9 +1397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7074ed894adb7d3468df4ad26f359faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1891306171989190}
-  distance: 0
-  maxdistance: 5
+  player: {fileID: 1482990086931476}
   waterIncrease: 0
   foodIncrease: 0
   wealthIncrease: -0.2
@@ -1461,7 +1432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsDisplayer: {fileID: 0}
   backgroundPanel: {fileID: 0}
-  player: {fileID: 1891306171989190}
+  player: {fileID: 1482990086931476}
 --- !u!114 &114729180028744302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1473,9 +1444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7074ed894adb7d3468df4ad26f359faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1891306171989190}
-  distance: 0
-  maxdistance: 5
+  player: {fileID: 1482990086931476}
   waterIncrease: -0.2
   foodIncrease: -0.2
   wealthIncrease: 0
@@ -1508,9 +1477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7074ed894adb7d3468df4ad26f359faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1891306171989190}
-  distance: 0
-  maxdistance: 5
+  player: {fileID: 1482990086931476}
   waterIncrease: 0
   foodIncrease: 0.4
   wealthIncrease: 0.2
@@ -1530,9 +1497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7074ed894adb7d3468df4ad26f359faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1891306171989190}
-  distance: 0
-  maxdistance: 5
+  player: {fileID: 1482990086931476}
   waterIncrease: -0.1
   foodIncrease: 0.4
   wealthIncrease: 0.2
@@ -1554,7 +1519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsDisplayer: {fileID: 0}
   backgroundPanel: {fileID: 0}
-  player: {fileID: 1891306171989190}
+  player: {fileID: 1482990086931476}
 --- !u!114 &114876080445291930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1568,7 +1533,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   statsDisplayer: {fileID: 0}
   backgroundPanel: {fileID: 0}
-  player: {fileID: 1891306171989190}
+  player: {fileID: 1482990086931476}
+--- !u!114 &114923820202453126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1482990086931476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6434dcbc50528224097bbc60a93ce226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableObjectives:
+  - description: '- Work at stables'
+    location: {fileID: 1973688234613400, guid: 378d52f83c3e2d24daa81bcafbb23e44, type: 2}
+  - description: '- Chop wood'
+    location: {fileID: 1571387696760038, guid: 47c3ff8d7feee4d439c3f051028e0a85, type: 2}
+  - description: '- Maintain the beehive'
+    location: {fileID: 1959792742011522, guid: d072d3baeea068a4aadbd45bcaa41e80, type: 2}
+  - description: '- Don''t bother me. Have fun at the swing.'
+    location: {fileID: 0}
+  - description: '- Hoe the garden plot.'
+    location: {fileID: 1579252733900498, guid: bd7bab472ad3a6f48b7fb2bd4d3583e2, type: 2}
+  - description: '- Get water from the well.'
+    location: {fileID: 1097944467683746, guid: e779ac62dbef98648b727519f99635cd, type: 2}
+  - description: '- Get food from the merchant in the woods.'
+    location: {fileID: 1375415790356036, guid: 057eb52c9147f3048ad4e38ced4bae97, type: 2}
+  - description: '- Visit mother''s grave in the woods.'
+    location: {fileID: 1774594515516346, guid: 7dfc13824ee724e43b8c68236badcdf2, type: 2}
+  - description: '- Wash yourself in that forest lake.'
+    location: {fileID: 1394481512720892, guid: 487090a122f99784ca48afab3fc7dc50, type: 2}
+  - description: '- When you''re done, come back home.'
+    location: {fileID: 1096241112312310, guid: 98c3c91a0c9128d49ab000f4e2d6e63e, type: 2}
+  currentObjective:
+    description: 
+    location: {fileID: 0}
+  house: {fileID: 0}
+  objectiveIsDone: 0
+  newDayCanvas: {fileID: 0}
+  activeObject: {fileID: 0}
+  objectiveText: {fileID: 0}
 --- !u!114 &114974577428213392
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1580,9 +1585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7074ed894adb7d3468df4ad26f359faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1891306171989190}
-  distance: 0
-  maxdistance: 5
+  player: {fileID: 1482990086931476}
   waterIncrease: 0.4
   foodIncrease: 0
   wealthIncrease: 0
@@ -1678,6 +1681,52 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2, y: 2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!212 &212284779417008896
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1482990086931476}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1035797603
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: add230e0b48ef6341be313566b6c96b9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2005,52 +2054,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!212 &212782954353405940
-SpriteRenderer:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1891306171989190}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1035797603
-  m_SortingLayer: 1
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: add230e0b48ef6341be313566b6c96b9, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!212 &212834133370501946
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -2105,9 +2108,9 @@ RectTransform:
   m_GameObject: {fileID: 1679901717854938}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.13125, y: 2.13125, z: 2.13125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4216460173876596}
+  - {fileID: 4059323553647714}
   - {fileID: 4750081738775540}
   m_Father: {fileID: 0}
   m_RootOrder: 0
