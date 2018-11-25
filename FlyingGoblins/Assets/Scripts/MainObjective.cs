@@ -7,6 +7,8 @@ public class MainObjective : MonoBehaviour
     public List<Objective> availableObjectives = new List<Objective>();
 
     public Objective currentObjective = null;
+    public GameObject house = null;
+    public bool objectiveIsDone = false;
 
     void Start()
     {
@@ -23,8 +25,15 @@ public class MainObjective : MonoBehaviour
     {
         if (location.ToString() == currentObjective.location.ToString())
         {
-            CreateNewObjective();
+            //CreateNewObjective();
+            objectiveIsDone = true;
         }
-        
+        if (location.ToString() == house.ToString())
+        {
+            if (objectiveIsDone)
+            {
+
+            }
+        }
     }
 }
