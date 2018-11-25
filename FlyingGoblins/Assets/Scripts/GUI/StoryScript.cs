@@ -5,18 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class StoryScript : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     public void PlayGameButtonDown()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadSceneAsync(2);
     }
 }
