@@ -15,12 +15,18 @@ public class PlayerStats : MonoBehaviour {
     public float hygiene = 1.0f;
     public float stamina = 1.0f;
 
+    public bool debugging = false;
+
     private void ProcessChanges(ref float number, int type)
     {
         // TODO BUG
         if (number <= 0.001f)
         {
-            Die(type);
+            if (!debugging)
+            {
+                Die(type);
+
+            }
         }
         if (number > 1.0f)
         {

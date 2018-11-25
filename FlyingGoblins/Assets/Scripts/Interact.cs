@@ -17,23 +17,17 @@ public class Interact : MonoBehaviour
     public float hygieneIncrease = 0.0f;
     public float staminaIncrease = 0.0f;
 
-    void Start()
-    {
-    }
-
-    void Update()
-    {
-       
-    }
-
-    
-
     void OnMouseDown()
     {
-        distance = (this.transform.position - player.transform.position).magnitude;
+        distance = Vector3.Distance(transform.position, player.transform.position);
         if (distance < maxdistance)
         {
+
+            MainObjective mainObjective = player.GetComponent<MainObjective>();
+            mainObjective.RegisterLocation(gameObject);
+
             PlayerStats stats = player.GetComponent<PlayerStats>();
+
             stats.water += waterIncrease;
             stats.food += foodIncrease;
             stats.wealth += wealthIncrease;

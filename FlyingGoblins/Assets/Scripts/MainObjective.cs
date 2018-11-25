@@ -5,10 +5,28 @@ using UnityEngine;
 public class MainObjective : MonoBehaviour
 {
     public List<Objective> availableObjectives = new List<Objective>();
-    
-    public Objective GetObjective()
+
+    public Objective currentObjective = null;
+
+    void Start()
+    {
+        CreateNewObjective();
+    }
+
+    public void CreateNewObjective()
     {
         int rnd = Random.Range(0, availableObjectives.Count);
-        return availableObjectives[rnd];
+        currentObjective = availableObjectives[rnd];
+    }
+
+    public void RegisterLocation(GameObject location)
+    {
+        
+        var first = location.ToString();
+        var second = currentObjective.location.GetType();
+        if (location.ToString() == currentObjective.location.ToString())
+        {
+            CreateNewObjective();
+        }
     }
 }
