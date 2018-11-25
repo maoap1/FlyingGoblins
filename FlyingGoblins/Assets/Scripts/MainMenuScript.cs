@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuestController : MonoBehaviour {
+public class MainMenuScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -11,6 +11,6 @@ public class QuestController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Singleton singleton = Singleton.Instance;
+		
 	}
 }
