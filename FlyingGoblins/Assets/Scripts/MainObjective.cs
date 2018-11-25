@@ -19,6 +19,7 @@ public class MainObjective : MonoBehaviour
     public GameObject doneCanvas;
     public TextMeshProUGUI doText;
     public Image objectiveImage;
+    public GameObject fakeLocations;
 
 
     void Start()
@@ -65,6 +66,7 @@ public class MainObjective : MonoBehaviour
 
             ObjectiveSetActive();
             activeObject.SetActive(false);
+            fakeLocations.SetActive(true);
             newDayCanvas.SetActive(true);
             canvas.SetActive(false);
             doneCanvas.SetActive(false);
