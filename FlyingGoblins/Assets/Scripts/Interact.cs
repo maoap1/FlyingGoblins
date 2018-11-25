@@ -6,8 +6,6 @@ public class Interact : MonoBehaviour
 {
     
     public GameObject player;
-    public float distance;
-    public float maxdistance = 5f;
     public float waterIncrease = 0.0f;
     public float foodIncrease = 0.0f;
     public float wealthIncrease = 0.0f;
@@ -19,24 +17,20 @@ public class Interact : MonoBehaviour
 
     void OnMouseDown()
     {
-        distance = Vector3.Distance(transform.position, player.transform.position);
-        if (distance < maxdistance)
-        {
 
-            MainObjective mainObjective = player.GetComponent<MainObjective>();
-            mainObjective.RegisterLocation(gameObject);
+        MainObjective mainObjective = player.GetComponent<MainObjective>();
+        mainObjective.RegisterLocation(gameObject);
 
-            PlayerStats stats = player.GetComponent<PlayerStats>();
+        PlayerStats stats = player.GetComponent<PlayerStats>();
 
-            stats.water += waterIncrease;
-            stats.food += foodIncrease;
-            stats.wealth += wealthIncrease;
-            stats.morale += moraleIncrease;
-            stats.warmth += warmthIncrease;
-            stats.socialization += socializationIncrease;
-            stats.hygiene += hygieneIncrease;
-            stats.stamina += staminaIncrease;
-            stats.DetermineDeath();
-        }
+        stats.water += waterIncrease;
+        stats.food += foodIncrease;
+        stats.wealth += wealthIncrease;
+        stats.morale += moraleIncrease;
+        stats.warmth += warmthIncrease;
+        stats.socialization += socializationIncrease;
+        stats.hygiene += hygieneIncrease;
+        stats.stamina += staminaIncrease;
+        stats.DetermineDeath();
     }
 }

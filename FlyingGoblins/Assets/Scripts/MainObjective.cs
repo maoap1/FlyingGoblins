@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using System.Text;
 
 public class MainObjective : MonoBehaviour
 {
@@ -9,10 +11,15 @@ public class MainObjective : MonoBehaviour
     public Objective currentObjective = null;
     public GameObject house = null;
     public bool objectiveIsDone = false;
+    public GameObject newDayCanvas;
+    public GameObject activeObject;
+    public TextMeshProUGUI objectiveText;
 
     void Start()
     {
         CreateNewObjective();
+        ObjectiveSetActive();
+        activeObject.SetActive(false);
     }
 
     public void CreateNewObjective()
@@ -32,8 +39,22 @@ public class MainObjective : MonoBehaviour
         {
             if (objectiveIsDone)
             {
-
+                PlayerStats ps = GetComponentInParent<PlayerStats>();
+                ps.water += -0.2f;
             }
+
+            ObjectiveSetActive();
+            activeObject.SetActive(false);
+            newDayCanvas.SetActive(true);
+            
         }
+    }
+
+    void ObjectiveSetActive()
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.AppendLine("Objective :");
+        sb.AppendLine("        " + currentObjective.description);
+        objectiveText.SetText(sb);
     }
 }
