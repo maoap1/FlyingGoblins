@@ -16,28 +16,28 @@ public class DeathTextController : MonoBehaviour {
             switch (singleton.typeOfDeath)
             {
                 case 1:
-                    deathText.SetText("No water. Nothing to drink. It seems like your kidneys ran out of your body, because they hate you.");
+                    deathText.SetText("They say humans can survive five days without water. But you're just a boy and in these parts death comes in matter of hours.");
                     break;
                 case 2:
-                    deathText.SetText("You are hungry. Very hungry. Your body is just bones and skin. You have less meat than a ten years old squirrel (how recognised the wolf, that has found your dead body).");
+                    deathText.SetText("Just bones and skin. Less meat than a squirrel but wolves don't mind.");
                     break;
                 case 3:
-                    deathText.SetText("You ran out of money. You needed some gold, so you tried to steal it. It was good idea, however, they caught you and you were executed.");
+                    deathText.SetText("You ruined this family. Father rather sold you to foreign slavers. You died after first shift in sulfur mines.");
                     break;
                 case 4:
-                    deathText.SetText("No morale, no delight, no plans for the future. Suddenly, you got a good idea. You commited a suicide. (Yeah, maybe it wasn't a good idea, but who cares.)");
+                    deathText.SetText("So many voices. Talking to you. All the time. You bashed them out of your head. For good.");
                     break;
                 case 5:
-                    deathText.SetText("The heat is gone. The world has changed into a cold, dark cave. One day after, young boy found a human-sized ice, where you were spotted for the last time.");
+                    deathText.SetText("In these parts snow never melts away. And so they will never find your frozen corpse.");
                     break;
                 case 6:
-                    deathText.SetText("You have no friends. People hate you and you hate people. You sit on a chair and wait, until someone comes. Twenty yaers later, someone finds only your bones sitting on the chair.");
+                    deathText.SetText("You came to hate your kin and befriended wolves. You've been killed during the initiation into the pack.");
                     break;
                 case 7:
-                    deathText.SetText("You live in dirt and pollution. (Pig!) You got a lot of illnesses (Smelly pig!) and died alone. (Wretched smelly pig!)");
+                    deathText.SetText("You will never know what disease killed you. You wouldn't be able to pronounce its name anyways.");
                     break;
                 case 8:
-                    deathText.SetText("You fell down and have not enought strength to stand up. Maybe someone helps you. No, sorry, but you can be happy, because your hogs have at least something to eat.");
+                    deathText.SetText("You fell down exhausted and never got on your feet again. Wilderness devoured you with time.");
                     break;
             }
         }
