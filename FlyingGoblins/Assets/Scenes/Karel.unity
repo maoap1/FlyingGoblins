@@ -796,6 +796,49 @@ Prefab:
       propertyPath: backgroundPanel
       value: 
       objectReference: {fileID: 497117662}
+    - target: {fileID: 224304660689278584, guid: 87d90c65b6709b845b04818622503dfa,
+        type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224304660689278584, guid: 87d90c65b6709b845b04818622503dfa,
+        type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224304660689278584, guid: 87d90c65b6709b845b04818622503dfa,
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216460173876596, guid: 87d90c65b6709b845b04818622503dfa, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216460173876596, guid: 87d90c65b6709b845b04818622503dfa, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216460173876596, guid: 87d90c65b6709b845b04818622503dfa, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750081738775540, guid: 87d90c65b6709b845b04818622503dfa, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750081738775540, guid: 87d90c65b6709b845b04818622503dfa, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750081738775540, guid: 87d90c65b6709b845b04818622503dfa, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679901717854938, guid: 87d90c65b6709b845b04818622503dfa, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87d90c65b6709b845b04818622503dfa, type: 2}
   m_IsPrefabAsset: 0
