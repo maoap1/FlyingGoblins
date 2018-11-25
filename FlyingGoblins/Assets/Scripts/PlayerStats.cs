@@ -17,7 +17,8 @@ public class PlayerStats : MonoBehaviour {
 
     private void ProcessChanges(ref float number, int type)
     {
-        if (number <= 0.0f)
+        // TODO BUG
+        if (number <= 0.001f)
         {
             Die(type);
         }
@@ -43,7 +44,6 @@ public class PlayerStats : MonoBehaviour {
     {
         Destroy(gameObject);
         Singleton.Instance.typeOfDeath = deathnumber;
-        SceneManager.LoadScene(2);
-        //TODO - Death scene
+        SceneManager.LoadScene(1);
     }
 }
