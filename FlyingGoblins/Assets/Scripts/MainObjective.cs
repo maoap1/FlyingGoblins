@@ -50,10 +50,16 @@ public class MainObjective : MonoBehaviour
             if (objectiveIsDone)
             {
                 CreateNewObjective();
-                PlayerStats ps = GetComponentInParent<PlayerStats>();
-                ps.water += -0.2f;
                 objectiveIsDone = false;
                 objectiveImage.color = Color.red;
+            }
+
+            if(objectiveIsDone == false)
+            {
+                PlayerStats ps = GetComponentInParent<PlayerStats>();
+                ps.wealth += -0.3f;
+                ps.morale += -0.3f;
+                ps.stamina += -0.1f;
             }
 
             ObjectiveSetActive();
