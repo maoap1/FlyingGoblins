@@ -11,8 +11,11 @@ public class Scaling : MonoBehaviour {
     private Vector3 hoverScaleVector;
     private Vector3 clickScaleVector;
 
+    private AudioSource audioSource;
+
     void Start()
     {
+        audioSource = gameObject.GetComponent<AudioSource>();
         normalScaleVector = transform.localScale;
         hoverScaleVector = new Vector3(normalScaleVector.x * hoverScale, normalScaleVector.y * hoverScale, normalScaleVector.z);
         clickScaleVector = new Vector3(normalScaleVector.x * clickScale, normalScaleVector.y * clickScale, normalScaleVector.z);
@@ -31,6 +34,7 @@ public class Scaling : MonoBehaviour {
     void OnMouseDown()
     {
         transform.localScale = clickScaleVector;
+        audioSource.Play();
     }
 
     void OnMouseUpAsButton()
